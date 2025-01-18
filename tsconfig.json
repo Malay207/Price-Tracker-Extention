@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                        // Updated target for modern JavaScript
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"                                 // Added support for ESNext features
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",                        // Updated module type
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",                        // Set base URL for paths
+    "outDir": "./build"                       // Output compiled files to the public folder
+  },
+  "include": [
+    "src",
+    "public/background.ts"                     // Include specific TypeScript files outside src
+  ]
+}
